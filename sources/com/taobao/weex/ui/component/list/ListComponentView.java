@@ -1,0 +1,18 @@
+package com.taobao.weex.ui.component.list;
+
+import com.taobao.weex.ui.view.listview.WXRecyclerView;
+import com.taobao.weex.ui.view.listview.adapter.RecyclerViewBaseAdapter;
+
+public interface ListComponentView {
+    WXRecyclerView getInnerView();
+
+    RecyclerViewBaseAdapter getRecyclerViewBaseAdapter();
+
+    void notifyStickyRemove(WXCell wXCell);
+
+    void notifyStickyShow(WXCell wXCell);
+
+    void setRecyclerViewBaseAdapter(RecyclerViewBaseAdapter recyclerViewBaseAdapter);
+
+    void updateStickyView(int i);
+}

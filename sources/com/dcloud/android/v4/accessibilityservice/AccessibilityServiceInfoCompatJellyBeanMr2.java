@@ -1,0 +1,12 @@
+package com.dcloud.android.v4.accessibilityservice;
+
+import android.accessibilityservice.AccessibilityServiceInfo;
+
+class AccessibilityServiceInfoCompatJellyBeanMr2 {
+    AccessibilityServiceInfoCompatJellyBeanMr2() {
+    }
+
+    public static int getCapabilities(AccessibilityServiceInfo accessibilityServiceInfo) {
+        return accessibilityServiceInfo.getCapabilities();
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/dcloud_debug_shape" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:id="@+id/progressBar" android:layout_width="30dp" android:layout_height="30dp" android:indeterminateDrawable="@drawable/dcloud_circle_white_progress" android:indeterminateDuration="1000"/>
+        <TextView android:textSize="14sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@+id/debugTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/dcloud_debug_connecting"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ad_dcloud_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ad_dcloud_splash_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="17"/>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ad_dcloud_splash_bottom_bar" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ad_dcloud_icon_single" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/ad_dcloud_icon" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitXY" android:layout_centerVertical="true"/>
+            <TextView android:textSize="24sp" android:id="@+id/ad_dcloud_name" android:paddingLeft="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ad_dcloud_icon" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DCloudActivityTheme">
+        <item name="android:windowBackground">@color/ime_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorEdgeEffect">#ff333333</item>
+        <item name="?0x101058c">false</item>
+    </style>
+    <style name="DCloudTheme">
+        <item name="android:windowBackground">@color/ime_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorEdgeEffect">#ff333333</item>
+        <item name="?0x101058c">false</item>
+    </style>
+    <style name="DCloudTranslucentTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorEdgeEffect">#ff333333</item>
+        <item name="?0x101058c">false</item>
+    </style>
+    <style name="ImageEditTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="?0x1010605">false</item>
+    </style>
+    <style name="TranslucentTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorEdgeEffect">#ff333333</item>
+        <item name="?0x101058c">false</item>
+    </style>
+</resources>

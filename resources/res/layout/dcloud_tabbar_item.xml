@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="100dp" android:layout_height="100dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/contentWrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:gravity="center" android:id="@+id/iconfontTV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/tabIV" android:layout_width="40dp" android:layout_height="40dp"/>
+        <TextView android:id="@+id/tabTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/itemDot" android:visibility="invisible" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="-5dp" android:layout_marginTop="-5dp" android:src="@drawable/dcloud_tabbar_dot" android:layout_toRightOf="@+id/contentWrapper" android:layout_alignTop="@+id/contentWrapper"/>
+    <TextView android:textSize="10sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/itemBadge" android:background="@drawable/dcloud_tabbar_badge" android:paddingLeft="4dp" android:paddingRight="4dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-9dp" android:layout_marginTop="-5dp" android:minWidth="18dp" android:minHeight="18dp" android:text="" android:maxLines="1" android:maxEms="3" android:includeFontPadding="false" android:layout_toRightOf="@+id/contentWrapper" android:layout_alignTop="@+id/contentWrapper"/>
+</RelativeLayout>

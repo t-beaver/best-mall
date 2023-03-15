@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textColor="#ff000000" android:id="@+id/title" android:paddingLeft="24dp" android:paddingTop="18dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="是否退出“今日头条”？"/>
+    <FrameLayout android:id="@+id/customLayout" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="20dp" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckBox android:textSize="14sp" android:textColor="#ff000000" android:id="@+id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="创建桌面图标"/>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="14sp" android:textColor="#ff009688" android:id="@+id/sure" android:background="@null" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定"/>
+        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:textSize="14sp" android:textColor="#ff009688" android:id="@+id/cancel" android:background="@null" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+.radius-lg{
+	border-radius: 20rpx;
+}
+.fw-5 {
+	font-weight: 500 !important;
+}
+
+.text-33 {
+	color: #333 !important;
+}
+
+.pro-btn {
+	height: 96rpx;
+	width: 100%;
+	font-size: 30rpx;
+	text-align: center;
+	line-height: 96rpx;
+	box-shadow: 0 0 20rpx 0 rgba(0, 0, 0, 0.03);
+	border-radius: 10rpx;
+}
+
+.pro-btn-yellow {
+	background: linear-gradient(180deg, #F6DEA2 0%, #F0C24C 100%);
+	border: 1px solid #A88733;
+	color: #232F3E;
+}
+
+.pro-btn-black {
+	background: linear-gradient(180deg, #578CFF 0%, #3874F6 100%);;
+	border: 1px solid #3874F6;
+	color: #fff;
+}
+
+.pro-black {
+	color: #232F3E !important;
+}
+
+.pro-orange{
+	color: #E56630 !important;
+}
+
+.pro-gray {
+	color: #999!important;
+}
+
+
+
+
+
